@@ -1,0 +1,38 @@
+.Deck {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  text-align: center;
+}
+
+.Deck-gimme {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+
+.Deck-gimme:hover {
+  cursor: pointer;
+  background-color: #444;
+}
+
+.Deck-gimme:active,
+.Deck-gimme:focus {
+  outline: none;
+}
+
+.Deck-cardarea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25vh; 
+  max-height: 75vh; 
+  overflow-y: auto; 
+}
